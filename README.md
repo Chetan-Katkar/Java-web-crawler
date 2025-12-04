@@ -75,9 +75,27 @@ The architecture separates the state management from the execution:
     `git clone https://github.com/YourUsername/Java-Multithreaded-Crawler.git`
     
 3. **Build:**Bash
+
+## Demo Output
+*Actual output from a 15-second crawl starting at "Java (programming language)":*
+
+text
+Starting Crawl on Wikipedia...
+pool-1-thread-1 processing: [https://en.wikipedia.org/wiki/Java_(programming_language](https://en.wikipedia.org/wiki/Java_(programming_language))
+pool-1-thread-2 processing: [https://en.wikipedia.org/wiki/ALGOL](https://en.wikipedia.org/wiki/ALGOL)
+pool-1-thread-3 processing: [https://en.wikipedia.org/wiki/Forth_(programming_language](https://en.wikipedia.org/wiki/Forth_(programming_language))
+...
+--- Crawling Finished ---
+
+> Search Query: "compiler"
+Found results:
+ - [https://en.wikipedia.org/wiki/ALGOL](https://en.wikipedia.org/wiki/ALGOL)
+ - [https://en.wikipedia.org/wiki/Forth_(programming_language](https://en.wikipedia.org/wiki/Forth_(programming_language))
+ - [https://en.wikipedia.org/wiki/Java_(programming_language](https://en.wikipedia.org/wiki/Java_(programming_language))
+
+> Search Query: "platform"
+Found results:
+ - [https://en.wikipedia.org/wiki/JDeveloper](https://en.wikipedia.org/wiki/JDeveloper)
+ - [https://en.wikipedia.org/wiki/Java_(programming_language](https://en.wikipedia.org/wiki/Java_(programming_language))
     
-    `mvn clean install`
     
-4. **Run:**Bash
-    
-    `java -cp target/classes Main`
