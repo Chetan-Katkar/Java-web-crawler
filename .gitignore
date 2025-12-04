@@ -1,0 +1,13 @@
+# Maven build folder
+target/
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Compiled Java classes
+*.class
+
+# Logs
+*.log
